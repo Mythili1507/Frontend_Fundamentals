@@ -1,0 +1,34 @@
+.accordion {
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #087f5b;
+}
+.accordion_label,
+.accordion_content {
+  padding: 14px 20px;
+}
+.accordion_label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.1s;
+}
+.accordion_label :hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.accordion_content {
+  background: white;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+.accordion-input {
+  display: nones;
+}
+.accordion_input :checked ~ .accordion_content {
+  display: block;
+}

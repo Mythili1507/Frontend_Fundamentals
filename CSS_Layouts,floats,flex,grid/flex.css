@@ -23,7 +23,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 a {
   text-decoration: none;
@@ -32,12 +32,15 @@ a {
 .more-info:link,
 .more-info:visited {
   color: black;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   display: inline-block;
 }
 .more-info:hover,
 .more-info:active {
   text-decoration: underline solid black;
+}
+.colors {
+  padding-top: 20px;
 }
 .color {
   background-color: black;
@@ -64,7 +67,7 @@ a {
 .add-cart {
   background-color: black;
   color: azure;
-  border: 4px solid black;
+  border-top: 6px solid black;
   text-transform: uppercase;
   font-size: 20px;
   cursor: pointer;
@@ -104,4 +107,30 @@ li:last-child {
   position: absolute;
   top: -17px;
   left: -38px;
+}
+
+.product-container {
+  display: flex;
+  gap: 40px;
+}
+.product-img {
+  margin-right: 40px;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+.product-details {
+  /* width: 243px; */
+  margin-top: 20px;
+}
+.details-title {
+  margin: 0px 0px 15px 0px;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

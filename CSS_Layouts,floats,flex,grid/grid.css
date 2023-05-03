@@ -12,12 +12,6 @@ body {
   background-color: #fbf1f1;
   padding: 15px;
 }
-.product {
-  border: 6px solid black;
-  width: 825px;
-  margin: 50px auto;
-  position: relative;
-}
 .free-shipping {
   color: #777;
   text-transform: uppercase;
@@ -104,4 +98,45 @@ li:last-child {
   position: absolute;
   top: -17px;
   left: -38px;
+}
+/*
+.container {
+  display: grid;
+}
+*/
+
+.product {
+  border: 6px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 200px 1fr;
+  grid-template-areas:
+    "header header header"
+    "pic price description"
+    "footer footer footer";
+}
+
+.product-title {
+  grid-area: header;
+}
+.prod-img {
+  grid-area: pic;
+}
+.product-price {
+  grid-area: price;
+}
+.product-details {
+  grid-area: description;
+}
+.add-cart {
+  grid-area: footer;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.details-list {
 }

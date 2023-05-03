@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin-top: 40px;
+      }
+      body {
+        margin-top: 40px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 60px;
+        gap: 20px;
+      }
+      .previous {
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+        background-color: #fff;
+        border-radius: 18px;
+        border: 1px solid #087f5b;
+        padding: 4px;
+      }
+      .next {
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+        background-color: #fff;
+        border-radius: 18px;
+        border: 1px solid #087f5b;
+        padding: 4px;
+      }
+
+      button {
+        background-color: transparent;
+        border: none;
+      }
+      .numbers {
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        gap: 20px;
+      }
+      .one:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+      .two:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+      .three {
+        background-color: #087f5b;
+        border-radius: 14px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+      }
+      .four:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+      .five:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+      .six:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+      .twentythree:hover {
+        background-color: #087f5b;
+        border-radius: 18px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+    <div class="container">
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="previous"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <div class="numbers">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="dots">...</div>
+        <div class="twentythree">23</div>
+      </div>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="next"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>

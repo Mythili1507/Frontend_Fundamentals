@@ -105,3 +105,28 @@ li:last-child {
   top: -17px;
   left: -38px;
 }
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+.product-info {
+  float: left;
+}
+.product-description {
+  float: right;
+  padding-left: 12px;
+}
+.details-list {
+  float: left;
+}
+.prod-desc {
+  width: 220px;
+  margin-top: 12px;
+}
+.free-shipping {
+  float: right;
+}
+.product-description {
+  margin-right: 12px;
+}

@@ -1,0 +1,55 @@
+.el-1 {
+  background-color: darksalmon;
+  height: 100px;
+  width: 100px;
+}
+.el-2 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+}
+.e1-3 {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+.el-4 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+.el-5 {
+  background-color: brown;
+  height: 100px;
+  width: 100px;
+}
+.el-6 {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+}
+.el-7 {
+  background-color: darkgreen;
+  height: 100px;
+  width: 100px;
+}
+.el-8 {
+  background-color: fuchsia;
+  height: 100px;
+  width: 100px;
+}
+
+.elements-display {
+  /* background-color: black; */
+  display: grid;
+  height: 600px;
+  width: 600px;
+  margin: 40px 60px;
+  display: flex;
+}
+.el-1 {
+  text-align: center;
+  margin: 2px;
+  padding: 10px;
+  width: 600px;
+}
